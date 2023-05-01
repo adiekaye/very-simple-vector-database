@@ -2,16 +2,9 @@
 
 This repository contains a basic implementation of a vector database in Python, as described in the blog post "Vector Databases Demystified Part 2: Building a Simple Vector Database in Python". This simple example is designed to illustrate the core concepts of vector databases and is not intended for large-scale or real-world applications.
 
+For additional context, see also Part 1:
+
 The vector database supports inserting vectors, searching for similar vectors, and retrieving vectors. It uses cosine similarity as a measure of similarity between vectors.
-
-## How to Use
-
-1. Clone this repository
-2. Install the required libraries: numpy
-3. Run `main.py` to see a demonstration of the vector database in action
-
-## Contents
-main.py: Contains the implementation of the VectorDatabase class and a simple example of its usage
 
 ## Setup and Installation
 To set up and run the example, follow these steps:
@@ -24,9 +17,16 @@ To set up and run the example, follow these steps:
 - For macOS/Linux: `source venv/bin/activate`
 5. Install the required libraries: `pip install -r requirements.txt`
 6. Run `main.py` to see a demonstration of the vector database in action: `python main.py`
-7. To exit the virtual environment, type `deactivate` in the terminal.
+
+To exit the virtual environment, type `deactivate` in the terminal.
 
 Note: The virtual environment and requirements installation steps are optional but recommended to ensure compatibility and avoid conflicts with other Python packages you may have installed.
+
+## Contents
+- `main.py`: Contains the implementation of the VectorDatabase class and a simple example of its usage
+- `requirements.txt`: Lists the required libraries for this project
+- `README.md`: Provides instructions for setting up and running the example, and explains the contents of the repository
+- `.gitignore`: A simple Git configuration file to ignore the virtual environment directory
 
 ## License
 This project is licensed under the MIT License.
